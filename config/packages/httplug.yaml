@@ -1,0 +1,18 @@
+httplug:
+    plugins:
+        redirect:
+            preserve_header: true
+
+    discovery:
+        client: 'auto'
+
+    clients:
+        digitalocean:
+            http_methods_client: true
+            plugins:
+                - 'httplug.plugin.content_length'
+                - 'httplug.plugin.redirect'
+                - authentication:
+                    digitalocean:
+                        type: 'bearer'
+                        token: "%env(DIGITALOCEAN_TOKEN)%"
