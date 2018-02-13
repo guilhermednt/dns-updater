@@ -60,9 +60,9 @@ Response:
 
 ``` json
 {
-  ip: "127.0.0.1",
-  timestamp: "2018-02-13 02:14:46",
-  auth: true
+  "ip": "127.0.0.1",
+  "timestamp": "2018-02-13 02:14:46",
+  "auth": true
 }
 ```
 
@@ -79,17 +79,17 @@ Response:
 
 ``` json
 {
-  domain_record: {
-    id: 19372846,
-    type: "A",
-    name: "subdomain",
-    data: "255.255.255.255",
-    priority: null,
-    port: null,
-    ttl: 60,
-    weight: null,
-    flags: null,
-    tag: null
+  "domain_record": {
+    "id": 19372846,
+    "type": "A",
+    "name": "subdomain",
+    "data": "255.255.255.255",
+    "priority": null,
+    "port": null,
+    "ttl": 60,
+    "weight": null,
+    "flags": null,
+    "tag": null
   }
 }
 ```
