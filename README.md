@@ -69,7 +69,7 @@ Response:
 #### /update
 
 This endpoint will update the configured subdomain if the `otp` parameter is a valid OTP.
-The response will be the 
+The response will be the current state of the domain record.
 
 Example:
 
